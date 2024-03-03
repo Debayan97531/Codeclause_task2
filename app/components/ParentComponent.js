@@ -4,7 +4,7 @@
 
 import { useState } from 'react';
 import ActivityList from './ActivityList';
-import recommendation from './recommendation';
+import recommendation from './Recommendation';
 
 const ParentComponent = () => {
   const [trackedActivities, setTrackedActivities] = useState([]);
